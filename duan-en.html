@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Featured Projects | Kim Hoang Phuc Printing</title>
+
+	<!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS (Để chạy Grid & Menu Mobile) -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/du-an.css">
+</head>
+
+<body oncontextmenu="return false;"> <!-- Bảo mật chặn chuột phải -->
+
+	<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg main-navbar at-top">
+<div class="container-fluid navbar-inner">
+    <!-- LOGO -->
+    <a class="navbar-brand" href="duan-en.html">
+      <img src="img/logo-khp/logo-text-brown.webp"
+           alt="Thiết kế bao bì phân bón"
+           class="logo"
+           loading="lazy">
+    </a>
+
+    <!-- RIGHT AREA -->
+    <div class="d-flex align-items-center ms-auto">
+
+      <!-- DESKTOP MENU -->
+      <div class="navbar-collapse d-none d-lg-flex">
+        <ul class="navbar-nav align-items-center">
+
+          <!-- DROPDOWN -->
+          <li class="nav-item nav-item-custom active"> <a class="nav-link nav-underline"
+     href="dichvu-en.html"
+     data-lang="project"> Services </a> </li>
+
+          <!-- PROJECT -->
+          <li class="nav-item nav-item-custom">
+            <a class="nav-link nav-underline active"
+               href="duan-en.html"
+               data-lang="project">
+              Projects
+            </a>
+          </li>
+
+          <!-- ABOUT -->
+          <li class="nav-item nav-item-custom">
+            <a class="nav-link nav-underline"
+               href="vechungtoi-en.html"
+               data-lang="about">
+              About Kim Hoang Phuc
+            </a>
+          </li>
+
+          <!-- LANGUAGE -->
+          <li class="nav-item lang-switch d-flex align-items-center">
+
+            <a href="duan-vie.html" data-no-transition>
+              <img src="https://flagcdn.com/w40/vn.webp"
+                   class="flag-btn"
+                   alt="Vietnamese"
+                   loading="lazy">
+            </a>
+
+            <a href="duan-en.html" data-no-transition>
+              <img src="https://flagcdn.com/w40/us.webp"
+                   class="flag-btn active"
+                   alt="English"
+                   loading="lazy">
+            </a>
+
+          </li>
+
+          <!-- LINE -->
+          <li class="nav-item">
+            <span class="nav-line"></span>
+          </li>
+
+          <!-- BUTTON -->
+          <li class="nav-item quote-wrap">
+            <a href="#"
+               id="openQuote"
+               class="btn btn-quote"
+               data-lang="quote"> Get a Quote </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- MOBILE RIGHT -->
+      <div class="d-flex align-items-center d-lg-none mobile-right">
+
+        <button class="btn btn-quote me-2"
+                id="openQuoteMobile">
+          Get a Quote
+        </button>
+
+        <button class="hamburger"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#mobileMenu"
+                aria-controls="mobileMenu"
+                aria-expanded="false">
+
+          <span class="hamburger-inner"></span>
+
+        </button>
+
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+
+<!-- MOBILE MENU -->
+<div class="offcanvas offcanvas-end mobile-menu-premium"
+     tabindex="-1"
+     id="mobileMenu">
+
+  <div class="offcanvas-header">
+
+    <img src="img/logo-khp/logo-text-brown.webp"
+         height="50"
+         alt="Thiết kế tem nhãn thủy sản"
+         loading="lazy">
+
+    <button type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas">
+    </button>
+
+  </div>
+
+  <div class="offcanvas-body">
+
+    <ul class="premium-nav">
+
+      <!-- SERVICE -->
+      <li class="premium-item">
+         <a href="dichvu-en.html" class="premium-link">
+          Services
+        </a>
+      </li>
+
+      <!-- PROJECT -->
+      <li class="premium-item ">
+        <a href="duan-en.html" class="premium-link active">
+          Projects
+        </a>
+      </li>
+
+      <!-- ABOUT -->
+      <li class="premium-item">
+        <a href="vechungtoi-en.html" class="premium-link">
+          About Us
+        </a>
+      </li>
+
+    </ul>
+
+    <!-- MOBILE LANGUAGE -->
+    <div class="mobile-lang-switch">
+
+      <a href="duan-vie.html"
+         class="lang-item">
+
+        <img src="https://flagcdn.com/w40/vn.webp"
+             class="flag-btn"
+             alt="Vietnamese">
+
+        <span>VI</span>
+
+      </a>
+
+      <a href="duan-en.html"
+         class="lang-item active">
+
+        <img src="https://flagcdn.com/w40/us.webp"
+             class="flag-btn active"
+             alt="English">
+
+        <span>EN</span>
+
+      </a>
+
+    </div>
+
+  </div>
+</div>
+	
+<!-- HERO SECTION -->
+		<section class="collection-hero">
+
+  <div class="hero-content">
+
+    <span class="hero-badge">
+EST. 2024 — KIM HOÀNG PHÚC    </span>
+
+        <h1>The Art of <br>Premium Packaging</h1>
+    <p>
+      Where creative excellence converges to elevate brand value through premium packaging and identity solutions.
+    </p>
+
+  </div>
+		
+  <!-- Floating Elements (Trang trí) -->
+  <div class="floating-products">
+
+    <img src="img/BAO 16-16-8 HUMIC + FULVIC.webp" class="float-item item-1">
+	  
+    <img src="img/BAO SUPER 18-18-18.webp" class="float-item item-2">
+	  
+    <img src="img/BAO NPK 15-15-15.webp" class="float-item item-3">
+
+  </div>
+	
+</section>
+
+<!-- STICKY FILTER -->
+<nav class="filter-bar">
+  <div class="container">
+    <div class="filter-links">
+      <!-- Nút Tất cả sẽ quay lại màn hình 4 ô đại diện -->
+      <button class="filter-btn active" data-target="all">All Projects</button>
+      <button class="filter-btn" data-target="baobi">Packaging</button>
+      <button class="filter-btn" data-target="temnhan">Labels</button>
+      <button class="filter-btn" data-target="quangcao">Advertising</button>
+      <button class="filter-btn" data-target="nhandien">Branding</button>
+    </div>
+  </div>
+</nav>
+
+<!-- MAIN PORTFOLIO GRID -->
+<main class="portfolio-container">
+  
+  <!-- VIEW 1: TRANG TẤT CẢ (4 Ô ĐẠI DIỆN VỚI HIỆU ỨNG PREMIUM) -->
+  <div id="view-all" class="tab-content active">
+    <div class="gallery-grid">
+      
+      <div class="grid-item item-tall" onclick="switchTab('baobi')">
+        <div class="card-inner">
+          <img src="img/bao-bi-01.jpg" draggable="false">
+          <div class="card-overlay">
+            <div class="card-text">
+           <span>01. COLLECTION</span>
+              <h3>Packaging Concepts</h3>
+              <p>Click to explore the project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item" onclick="switchTab('temnhan')">
+        <div class="card-inner">
+          <img src="img/tem-nhan-01.webp" draggable="false">
+          <div class="card-overlay">
+            <div class="card-text">
+            <span>02. LABELS</span>
+              <h3>Label Systems</h3>
+              <p>Click to explore the project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item" onclick="switchTab('quangcao')">
+        <div class="card-inner">
+          <img src="img/quang-cao-01.jpg" draggable="false">
+          <div class="card-overlay">
+            <div class="card-text">
+             <span>03. MARKETING</span>
+              <h3>Advertising Campaigns</h3>
+              <p>Click to explore the project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item item-wide" onclick="switchTab('nhandien')">
+        <div class="card-inner">
+          <img src="img/nhan-dien-06.webp" draggable="false">
+          <div class="card-overlay">
+            <div class="card-text">
+              <span>04. IDENTITY</span>
+              <h3>Brand Identity Systems</h3>
+              <p>Click to explore the project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  	<!-- Bao bì -->
+  <div id="view-baobi" class="tab-content">
+	 
+	    <!-- GRID ẢNH -->
+    <div class="gallery-grid-detail">
+		
+<!--12 ảnh đầu-->
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/bao-bi-01.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/bao-bi-02.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/bao-bi-03.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/bao-bi-04.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/bao-bi-05.jpg" draggable="false"></div></div>
+	  <div class="grid-item"><div class="card-inner">
+		  <img src="img/bao-bi-06.jpg" draggable="false"></div></div>
+  	  <div class="grid-item"><div class="card-inner">
+		  <img src="img/tui-ep-bien-01.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/tui-ep-bien-02.jpg" draggable="false"></div></div>
+	  <div class="grid-item"><div class="card-inner">
+		  <img src="img/tui-ep-bien-03.jpg" draggable="false"></div></div>
+  	  <div class="grid-item"><div class="card-inner">
+		  <img src="img/tui-ep-bien-04.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/tui-ep-bien-05.jpg" draggable="false"></div></div>
+	  <div class="grid-item"><div class="card-inner">
+		  <img src="img/tui-ep-bien-06.jpg" draggable="false"></div></div>
+		
+<!-- ẢNH ẨN LOAD MORE -->
+
+    <div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-10.jpg" draggable="false"></div></div>
+		
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-11.jpg" draggable="false"></div></div>
+		
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-12.jpg" draggable="false"></div></div>
+		
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-13.jpg" draggable="false"></div></div>	
+		
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-14.jpg" draggable="false"></div></div>
+		
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-15.jpg" draggable="false"></div></div>
+	
+		
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-16.jpg" draggable="false"></div></div>
+		
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-17.jpg" draggable="false"></div></div>
+		
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-18.jpg" draggable="false"></div></div>
+		
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-19.jpg" draggable="false"></div></div>	
+		
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-20.jpg" draggable="false"></div></div>
+		
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-21.jpg" draggable="false"></div></div>	
+		
+		
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-22.jpg" draggable="false"></div></div>
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-23.jpg" draggable="false"></div></div>		
+	<div class="grid-item hidden-item baobi-hidden">
+      <div class="card-inner">
+        <img src="img/bao-bi-24.jpg" draggable="false"></div></div>	
+	  
+	</div> <!-- đóng gallery-grid-detail -->
+	  
+<!-- BUTTON LOAD MORE -->
+<div class="loadmore-wrap">
+  <button class="load-more-btn"
+          data-target="baobi">
+  View More Projects
+  </button>
+</div>
+
+</div> <!-- đóng view-baobi -->
+	
+<!--Kết thúc phần dự án bao bì-->
+ 
+	<!-- Tem nhãn -->
+  <div id="view-temnhan" class="tab-content">
+    <div class="gallery-grid-detail">
+
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/tem-nhan-01.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/tem-nhan-02.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/tem-nhan-03.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/tem-nhan-04.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/tem-nhan-05.jpg" draggable="false"></div></div>
+	  <div class="grid-item"><div class="card-inner">
+		  <img src="img/tem-nhan-06.jpg" draggable="false"></div></div>
+  	  <div class="grid-item"><div class="card-inner">
+		  <img src="img/tem-nhan-07.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/tem-nhan-08.jpg" draggable="false"></div></div>
+	  <div class="grid-item"><div class="card-inner">
+		  <img src="img/tem-nhan-09.jpg" draggable="false"></div></div>
+  	  <div class="grid-item"><div class="card-inner">
+		  <img src="img/tem-nhan-10.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/tem-nhan-11.jpg" draggable="false"></div></div>
+	  <div class="grid-item"><div class="card-inner">
+		  <img src="img/tem-nhan-12.jpg" draggable="false"></div></div>
+		
+<!-- ẢNH ẨN LOAD MORE -->
+
+    <div class="grid-item hidden-item temnhan-hidden">
+      <div class="card-inner">
+        <img src="img/tem-nhan-13.jpg" draggable="false"></div></div>
+	<div class="grid-item hidden-item temnhan-hidden">
+      <div class="card-inner">
+        <img src="img/tem-nhan-14.jpg" draggable="false"></div></div>
+	<div class="grid-item hidden-item temnhan-hidden">
+      <div class="card-inner">
+        <img src="img/tem-nhan-15.jpg" draggable="false"></div></div>
+	<div class="grid-item hidden-item temnhan-hidden">
+      <div class="card-inner">
+        <img src="img/tem-nhan-16.jpg" draggable="false"></div></div>	
+	<div class="grid-item hidden-item temnhan-hidden">
+      <div class="card-inner">
+        <img src="img/tem-nhan-17.jpg" draggable="false"></div></div>
+	<div class="grid-item hidden-item temnhan-hidden">  
+	<div class="card-inner">
+        <img src="img/tem-nhan-18.jpg" draggable="false"></div></div>
+	
+		<div class="grid-item hidden-item temnhan-hidden">
+      <div class="card-inner">
+        <img src="img/tem-nhan-19.png" draggable="false"></div></div>
+	<div class="grid-item hidden-item temnhan-hidden">
+      <div class="card-inner">
+        <img src="img/tem-nhan-20.png" draggable="false"></div></div>	
+	<div class="grid-item hidden-item temnhan-hidden">
+      <div class="card-inner">
+        <img src="img/tem-nhan-21.png" draggable="false"></div></div>
+	<div class="grid-item hidden-item temnhan-hidden">
+      <div class="card-inner">
+        <img src="img/tem-nhan-22.jpg" draggable="false"></div></div>			
+	<div class="grid-item hidden-item temnhan-hidden">
+      <div class="card-inner">
+        <img src="img/tem-nhan-23.jpg" draggable="false"></div></div>
+	<div class="grid-item hidden-item temnhan-hidden">
+      <div class="card-inner">
+        <img src="img/tem-nhan-24.jpg" draggable="false"></div></div>	
+
+
+	  </div> <!-- đóng gallery-grid-detail -->
+
+<!-- BUTTON LOAD MORE -->
+<div class="loadmore-wrap">
+  <button class="load-more-btn"
+          data-target="temnhan">
+  View More Projects
+  </button>
+</div>
+
+</div> <!-- đóng view-temnhan -->
+	
+	  <div id="view-quangcao" class="tab-content">
+    <div class="gallery-grid-detail">
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/quang-cao-01.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/quang-cao-02.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/quang-cao-03.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/quang-cao-04.jpg" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/quang-cao-05.jpg" draggable="false"></div></div>
+	  <div class="grid-item"><div class="card-inner">
+		  <img src="img/quang-cao-06.jpg" draggable="false"></div></div>
+    </div>
+  </div>
+	
+	  <div id="view-nhandien" class="tab-content">
+    <div class="gallery-grid-detail">
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/nhan-dien-01.webp" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/nhan-dien-02.webp" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/nhan-dien-03.webp" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/nhan-dien-04.webp" draggable="false"></div></div>
+      <div class="grid-item"><div class="card-inner">
+		  <img src="img/nhan-dien-05.webp" draggable="false"></div></div>
+	  <div class="grid-item"><div class="card-inner">
+		  <img src="img/nhan-dien-06.webp" draggable="false"></div></div>
+    </div>
+  </div>
+	
+	
+	
+</main>
+
+	<!-- BACK TO FILTER -->
+<button id="backToFilter" class="back-to-filter">
+
+  <svg xmlns="http://www.w3.org/2000/svg"
+       width="20"
+       height="20"
+       fill="currentColor"
+       viewBox="0 0 16 16">
+
+    <path fill-rule="evenodd"
+          d="M8 4a.5.5 0 0 1 .354.146l4 4a.5.5 0 0 1-.708.708L8 5.207 4.354 8.854a.5.5 0 1 1-.708-.708l4-4A.5.5 0 0 1 8 4z"/>
+
+    <path fill-rule="evenodd"
+          d="M8 12a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 1 0v7A.5.5 0 0 1 8 12z"/>
+
+  </svg>
+
+</button>
+	
+	
+<!-- CONTACT CTA -->
+<section class="cta-section">
+  <div class="cta-content">
+    <h2>Ready to elevate <br> your brand with us?</h2>
+    <a href="tel:0917560787" class="btn-premium">Start Your Project
+</a>
+  </div>
+</section>
+
+	
+	<!--ICON HOTLINE-->
+<div class="floating-contact"> <a href="tel:0917560787" class="btn-contact-fixed btn-call"> <span class="spinner-grow spinner-grow-sm me-2" role="status" aria-hidden="true"></span>
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-telephone-fill me-2" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+  </svg>
+  Call Now: 0917 560 787 </a> <a href="https://zalo.me/0917560787" target="_blank" class="btn-contact-fixed btn-zalo"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" class="contact-icon" alt="Zalo Icon" loading="lazy"> Kim Hoang Phuc Printing Design </a> </div>
+
+	
+	
+<!-- FOOTER -->
+<footer class="footer-section">
+  <div class="container">
+    <div class="row">
+      
+      <!-- CỘT 1: THÔNG TIN CHÍNH -->
+      <div class="col-lg-4 col-md-6">
+        <img src="img/logo-khp/logo-icon-white.webp" alt="Kim Hoàng Phúc" class="footer-logo">
+        <p><strong>KIM HOANG PHUC TRADING SERVICE CO., LTD</strong><br>
+                     Professional packaging design and printing solutions that elevate Vietnamese brands.</p>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.731722822949!2d106.63435457585094!3d10.831818258167571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175296068d71205%3A0xc3191f69273c5c58!2zMTcxIE5ndXnhu4VuIFTGsCBHaeG6o24sIFBoxrDhu51uZyA4LCBHw7IgVuG6pXAsIEjhu5MgQ2jDrCBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1700000000000"
+                          width="100%" height="150" style="border:0;border-radius:16px;" allowfullscreen="" loading="lazy" > </iframe>
+        </div>
+      </div>
+
+      <!-- CỘT 2: LIÊN HỆ -->
+      <div class="col-lg-4 col-md-6">
+        <h5 class="footer-title">Contact</h5>
+        <p><strong>Office:</strong>171/106/6 Nguyen Tu Gian Street, Ward 8, Go Vap District, Ho Chi Minh City</p>
+        <p>
+  <strong>Email:</strong>
+  <span class="footer-email">
+    thietkeinankhp@gmail.com
+  </span>
+</p>
+        <p><strong>Zalo / SĐT:</strong> <a href="tel:0917560787" style="color: #ffe27a; font-weight: bold;">0917.560.787</a></p>
+      </div>
+
+      <!-- CỘT 3: VỀ CHÚNG TÔI -->
+      <div class="col-lg-2 col-md-6">
+        <h5 class="footer-title">Explore</h5>
+        <ul class="footer-links">
+          <li><a href="dichvu-en.html">Services</a></li>
+          <li><a href="duan-en.html">Featured Projects</a></li>
+          <li><a href="vechungtoi-en.html">About Kim Hoang Phuc</a></li>
+        </ul>
+      </div>
+
+      <!-- CỘT 4: DỊCH VỤ -->
+      <div class="col-lg-2 col-md-6">
+        <h5 class="footer-title">Services</h5>
+        <ul class="footer-links">
+          <li><a href="duan-en.html#baobi">Packaging Design</a></li>
+          <li><a href="duan-en.html#temnhan">Label Design</a></li>
+          <li><a href="duan-en.html#quangcao">Advertising Identity</a></li>
+          <li><a href="duan-en.html#nhandien">Brand Identity</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Copyright © 2025 Kim Hoang Phuc. All rights reserved.</p>
+    </div>
+  </div>
+</footer>	
+<!--Thanh mainbar -->
+<script>
+const navbar = document.querySelector(".main-navbar");
+
+window.addEventListener("scroll", () => {
+
+  if(window.scrollY > 50){
+
+    navbar.classList.remove("at-top");
+    navbar.classList.add("scrolled-up");
+
+  }else{
+
+    navbar.classList.remove("scrolled-up");
+    navbar.classList.add("at-top");
+
+  }
+
+});
+</script>
+		
+<!-- Hamburger -->
+	<script>
+const hamburger = document.querySelector(".hamburger");
+const offcanvas = document.getElementById("mobileMenu");
+
+offcanvas.addEventListener("show.bs.offcanvas", () => {
+  hamburger.classList.add("active");
+});
+
+offcanvas.addEventListener("hide.bs.offcanvas", () => {
+  hamburger.classList.remove("active");
+});
+</script>
+	
+<!--	Thanh giới thiệu sản phẩm	-->
+<script>
+function switchTab(tabId, scroll = true) {
+
+  // Ẩn tất cả
+  document.querySelectorAll('.tab-content').forEach(content => {
+    content.classList.remove('active');
+  });
+
+  // Hiện tab cần mở
+  const target =
+    tabId === 'all'
+    ? 'view-all'
+    : 'view-' + tabId;
+
+  const targetEl =
+    document.getElementById(target);
+
+  if(targetEl){
+    targetEl.classList.add('active');
+  }
+
+  // Active button
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+
+    btn.classList.remove('active');
+
+    if(btn.dataset.target === tabId){
+      btn.classList.add('active');
+    }
+
+  });
+
+  // Scroll xuống đúng gallery
+  if(scroll && targetEl){
+
+    setTimeout(()=>{
+
+      targetEl.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+
+    },100);
+
+  }
+
+}
+
+/* CLICK FILTER */
+document.querySelectorAll('.filter-btn').forEach(btn => {
+
+  btn.addEventListener('click', () => {
+
+    switchTab(btn.dataset.target);
+
+  });
+
+});
+
+/* AUTO OPEN HASH */
+document.addEventListener("DOMContentLoaded", () => {
+
+  const hash =
+    window.location.hash.replace("#","");
+
+  if(hash){
+
+    switchTab(hash, false);
+
+    setTimeout(()=>{
+
+      const targetEl =
+        document.getElementById("view-" + hash);
+
+      if(targetEl){
+
+        targetEl.scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+        });
+
+      }
+
+    },300);
+
+  }
+
+});
+</script>	
+	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>	
+	
+<!-- Popup báo giá -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  const quotePopup = document.getElementById("quotePopup");
+  const successPopup = document.getElementById("successPopup");
+
+  const closeQuote = document.getElementById("closeQuote");
+  const backdrop = document.querySelector(".quote-backdrop");
+
+  const form = document.getElementById("quoteForm");
+
+  const quoteBtns = [
+    document.getElementById("openQuote"),
+    document.getElementById("openQuoteMobile")
+  ].filter(Boolean);
+
+  /* OPEN */
+  quoteBtns.forEach(btn => {
+
+    btn.addEventListener("click", (e) => {
+
+      e.preventDefault();
+
+      quotePopup.classList.add("show");
+
+      document.body.style.overflow = "hidden";
+
+    });
+
+  });
+
+  /* CLOSE */
+  function closePopup(){
+
+    quotePopup.classList.remove("show");
+
+    document.body.style.overflow = "";
+
+  }
+
+  closeQuote.addEventListener("click", closePopup);
+
+  backdrop.addEventListener("click", closePopup);
+
+  /* ESC */
+  document.addEventListener("keydown", (e)=>{
+
+    if(e.key === "Escape"){
+
+      closePopup();
+
+      successPopup.classList.remove("show");
+
+    }
+
+  });
+
+  /* SUBMIT */
+  form.addEventListener("submit", async (e) => {
+
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    try{
+
+      const response = await fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers:{
+          'Accept':'application/json'
+        }
+      });
+
+      if(response.ok){
+
+        closePopup();
+
+        form.reset();
+
+        successPopup.classList.add("show");
+
+        setTimeout(() => {
+
+          successPopup.classList.remove("show");
+
+        }, 3000);
+
+      }else{
+
+        alert("Không gửi được biểu mẫu.");
+
+      }
+
+    }catch(error){
+
+      alert("Có lỗi xảy ra.");
+
+      console.error(error);
+
+    }
+
+  });
+
+});
+</script>
+	<!-- LOAD MORE -->
+<script>
+document.querySelectorAll('.load-more-btn').forEach(btn => {
+
+  btn.addEventListener('click', () => {
+
+    const target = btn.dataset.target;
+
+    const hiddenItems =
+      document.querySelectorAll(`.${target}-hidden`);
+
+    hiddenItems.forEach(item => {
+      item.classList.remove('hidden-item');
+    });
+
+    // Ẩn nút sau khi mở hết
+    btn.style.display = 'none';
+
+  });
+
+});
+</script>
+	<script>
+const backBtn = document.getElementById("backToFilter");
+const filterBar = document.querySelector(".filter-bar");
+
+window.addEventListener("scroll", () => {
+
+  if(window.scrollY > 250){
+
+    backBtn.classList.add("show");
+
+  }else{
+
+    backBtn.classList.remove("show");
+
+  }
+
+});
+
+backBtn.addEventListener("click", () => {
+
+  filterBar.scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+
+});
+</script>
+	
+</body>
+</html>
